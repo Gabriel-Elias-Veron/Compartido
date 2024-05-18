@@ -1,0 +1,3 @@
+SELECT *
+FROM PERSONAL
+LEFT JOIN Productos ON PERSONAL.ID = Productos.ID;

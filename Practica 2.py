@@ -4,5 +4,5 @@
 pais = ["Mexico", "Peru", "España", "Argentina", "Chile", "Bolivia", "Ecuador"]
 
 for i in pais:
-    if len(i) > 6:
+    if len(i) >= 6:
         print(i)
